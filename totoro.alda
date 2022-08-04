@@ -1,0 +1,17 @@
+#!/usr/bin/env alda -c
+(tempo! 70)
+VARIABLE = < a8 > c | d r d
+(vol! 90)
+flute:
+	V1: 
+		[
+		o5
+		VARIABLE e c r VARIABLE g e r e g | a*3 > c < b a g f | e r d < a > e r
+		]*2
+	V2: 
+		[
+		o3
+		[ r4 ]'1
+		[]'2
+		f1 | e | d | e
+		]*2

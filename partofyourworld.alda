@@ -1,0 +1,6 @@
+piano:
+  f2/a>/c < f/a>/c <| e-/f/a>/c < e-/f/a>/c <| d/f/a+ d/f/a+ | c+/f/a+>/c+ < c+/f/a+>/c+ <| c/f/a c/f/a | c/f/g/b- c/e/g/b- | f/a>/c < f/a>/c <| f/a>/c/d+ < f/a>/c/d+
+bagpipes:
+  o3 f2 f | e- e- | d d | c+ c+ | c c | c c | f f | f f
+V1:
+  o5 f8 g a16 a

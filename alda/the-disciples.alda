@@ -1,0 +1,28 @@
+#!/usr/bin/env -S alda play -c
+(vol! 100)
+midi-drawbar-organ:
+    V1:
+        o6
+        [
+            | r2 g4 e | d2 d2 | d4 c e g | a2 g1 a4 b | >c <b a g2 e2 d4 | e1 |
+        ]*2
+        r2. e4 | a2~a4~a | g2 e4 g | a b a g | e1 | a2~a4~a | >c2~<b4~>c | d2~c4~<a | g1
+
+    V2:
+        o5
+        [
+            | c1 | <g | a2. g4 | f1 g | a | f | >c
+        ]*2
+        c2. b4
+        | a1 | e | f | >c2 <b2 | a1 | f1 | d | g
+    V3:
+        o4
+        [
+            [r1]'1
+            | r2 a4 b | r1 | r1 r1 | r1 | r1 |
+            [r2 >c4 d e f <r2]'1
+            [r1 | r1]'2
+        ]*2
+        r1 | r1 | r1 | r1 | r1 | r1 | r1 | r2 >f2
+
+

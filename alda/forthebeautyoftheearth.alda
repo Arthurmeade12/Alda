@@ -1,0 +1,21 @@
+#!/usr/bin/env -S alda play -f
+(tempo! 100)
+midi-choir-aahs:
+    V1:
+        o4
+        [
+        r4 e8 f g g a b | > c1 | r4 c8 d f e c < a a8. b32 a g2 a8 b |
+        > c2~c8 c d8 e < f2. > d16 c c d | c8 < b16 b16~b2 |
+        [b16 a a b a8 g16 g16~g2]'1
+        [r1]'2
+        > c8 d
+        e4. e8 f4 g g8. a32 g f2. | f8 e16 c8 < a16 g2 > d8 d8. e32 d c8~c2 | r1 r2 <
+        [%secondverse]'1
+        ]*2
+    # B
+    V2:
+        @secondverse
+        r4 e8 f g g a b | > c1 | r4 c8 < b a g f c c8. d32 c < b4 r4 |
+        r2 > c8 d e2~e8 e d c d r | r1 | b16 a a b a8 g16 g16~g2 | >c8 <b
+        > c4. c8 d4 {e d c}4 < b-8. > c32 < b- a2.  | g2~g8 g f f f8. g32 f e8~e2
+

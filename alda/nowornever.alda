@@ -1,0 +1,45 @@
+#!/usr/bin/env -S alda play -f
+xx = r8*3
+# Equation: xy = 4 where
+# x = # of quarternotes & y = alda number
+(tempo! 120)
+english-horn:
+  [
+    V1:
+      o4
+      # 1.6 = 5 eighth notes
+      | g1.6 xx | b1.6 xx |
+      | a1.6 xx | e1.6 r8 f+ r |
+    V2:
+      o4
+      | r8 b2 xx |> r8 d2 xx |
+      | r8 c+2 xx |< r8 g2 r8 a r |
+    V3:
+      o5
+      | r4 d4. xx | r4 f+4. xx |
+      | r4 e4. xx |< r4 b4. r8 >c+ r |
+    V4:
+      o5
+      | r4. f+4 xx | [ r4. a4 xx ]*2 |
+      || r4. d4 r8 e r |
+    V5:
+      o5
+      | r2 a8 xx |> r2 d8 xx |
+      | r2 c+8 xx |< r2 f+8 xx |
+    V6:
+      o5
+      | r1 | r1 |
+      | r2 c+4. d4 b4. r2 |
+  ]*4
+trumpet:
+  o6
+  [
+    | b8 r e r f+ r d r | d r d e2 e16 d |
+    | d e8 r16 r2. |
+    | r2 a16*4 a8 a |
+  ]*2
+  | b8 f+16 e f+8 e16 d e8 d16 <b >d8 d | d3.2 e16 f+ e4. f+8 f+16 | # 3.2 = 5 sixteenth notes
+  | f+ e8 r16 r2. | r2 a16*4 a8 a |
+  | b8 r e r f+ r d r | d r d e2 e16 d |
+  | d e8 r16 r2. | r1 |
+

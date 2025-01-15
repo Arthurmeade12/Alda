@@ -1,20 +1,50 @@
 #!/usr/bin/env -S alda play -f
-(tempo! 150)
+(tempo! 300)
 guitar:
     V1:
-        o5
         [
-            e8 f+ | g4 f+8 e | d+4 e8 f+ |<  b4 > c+8 d+ | e4 d8 c8 | < b4 a8 g |
-            [f+4 g8 a | b a g f+ | e8 r > ]'1,3
-            [f+16 g f+4 g8 | g2. > ]'2,4
-        ]*4
-        < b8 g | > d4 < a8 > c | < b4 > g8 d | e4 < b8 > d | c4 < b8 a | a-4 a8 b | >c4 < b8 a | a2 | r4 > d8 < a | b4 > g8 d | e4 <b8 >d | c4 a8 e | f+4 c+8 e | d4 c+8 <b | a+16 b a+4 b8 | b2. | > b8 f+ | g+4 f+8 e | a4 e8 g | f+4 e8 d | g4 d8 f | e4 a8 e | f+4 c+8 e | d+2. e8 < b | > c4 d8 < a | b4 > c8 < g | a4 b8 f+ | g4 f+8 e | e-4 e8 f+ | g4 f+8 e | e2
-
+            o5
+            e8 f+
+            | g4 f+8 e | d+4 e8 f+ <| b4 > c+8 d+ | e4 d8 c8 |
+            | <b4 a8 g |
+                [ f+4 g8 a | b a g f+ | e8 r > ]'1,3,5,7
+                [ f+16 g f+4 g8 | g2. ]'2,6,8
+                [ f+16 g f+4 g8 | g2. | %MELODY_VERSE r0.125*4 ]'4
+        ]*8
     V2:
+        @MELODY_VERSE
+        [
+            o5
+            < b8 g >|
+            | d4 < a8 > c <| b4 > g8 d | e4 < b8 > d | c4 < b8 a |
+            | a-4 a8 b >| c4 < b8 a | a2 | r4 > d8 < a |
+            | b4 > g8 d | e4 <b8 >d | c4 a8 e | f+4 c+8 e |
+            | d4 c+8 <b | a+16 b a+4 b8 | b2. >| b8 f+ |
+            | g+4 f+8 e | a4 e8 g | f+4 e8 d | g4 d8 f |
+            | e4 a8 e | f+4 c+8 e | d+2. e8 < b >| c4 d8 < a |
+            | b4 > c8 < g | a4 b8 f+ | g4 f+8 e | e-4 e8 f+ |
+            | g8 f+16 g f+8 e | e2 | r4 >
+        ]*2
+        >
+    V3:
         o3
         [
             g8 f+ | e4 a | b a | g f+ | e f+ | g
-            [a | b a | g b | e8 f+]'1,3
-            [> c | d4 < d | g2. ]'2,4
-        ]*4
-        g4 | f+ d | g b | >c < a- | a > d | e < a | > e < e | a8 b a g | f+4 d | g b | >c <a- | a > c+ | d < b- | b4 > e4 | f+4 < f+ | b8 b- b > c+ | d+4 < b | > e d | c+ <a | > d c | <b g | > c < b | a f+ | b4. > c8 | < b a a-4 | a8 > e f+4 | < g8 > e- e4 | < f+8 > c+ d+4 | < e a | b a b2 | e2
+            [ a | b a | g b | e8 f+ ]'1,3,5,7
+            [ > c | d4 < d | g2. ]'2,6,8
+            [ > c | d4 < d | g2. | %BASS_VERSE r0.125*4 ]'4
+        ]*8
+    V4:
+        o3
+        @BASS_VERSE
+        [
+            g4
+            | f+ d | g b >| c < a- | a > d |
+            | e < a >| e < e | a8 b a g | f+4 d |
+            | g b >| c <a- | a > c+ | d < b- |
+            | b4 > e4 | f+4 < f+ | b8 b- b > c+ | d+4 < b >|
+            | e d | c+ <a >| d c <| b g >|
+            | c < b | a f+ | b4. > c8 <| b a a-4 |
+            | a8 > e f+4 <| g8 > e- e4 <| f+8 > c+ d+4 <| e a |
+            | b a | b2 | e | r4
+        ]*2

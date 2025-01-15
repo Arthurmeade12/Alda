@@ -1,3 +1,4 @@
+#!/usr/bin/env -S alda play -f
 # By Arthur on 7/16/22 on the flight to Baltimore en route to Twin Maples
 ctobtocc = c2/e/g <b/>e-/f+ c1/e/g
 ctobtocb = c2 < b > c1

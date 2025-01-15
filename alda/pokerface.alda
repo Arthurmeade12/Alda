@@ -1,0 +1,31 @@
+#!/usr/bin/env -S alda play -f
+(transpose! -1)
+bass = a8 a < a a > e e < a a > a a f c g g < g g >
+midi-calliope:
+    o4
+    [
+        bass
+        [%first]'1
+        [%second]'2
+    ]*4
+midi-electric-guitar-clean:
+    # second instrument
+    V1:
+        o4
+        @first
+        [ bass ]*3
+    V2:
+        o5
+        @second
+        c8*12 d c d c
+        e*12 f e f e
+piano:
+    o3
+    # third instrument
+    [
+        [r8]'1
+        [a8]'2,3,4
+        r1 r2 a8 a a
+    ]*4
+
+

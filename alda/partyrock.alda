@@ -1,0 +1,34 @@
+#!/usr/bin/env -S alda play -f
+(key-sig! '(f minor))
+(tempo! 130)
+rr = r r
+midi-saw-wave:
+  V1:
+    (fffff)
+   o4
+    [
+      | f16 rr f rr f r | rr f rr f rr |
+      | e- rr e- rr d- r | rr d- rr d- rr |
+    ]*4
+  V2:
+    o5
+    [
+      | c16 rr c rr c r | rr c rr c rr | <
+      | b- rr b- rr > d- r | rr d- rr d- rr |
+    ]*4
+  V3:
+    o5
+    [
+      | e-16/a- rr e-/a- rr e-/a- r | rr e-/a- rr e-/a- rr |
+      | e-/g rr e-/g rr f r | rr f/a- rr f/a- rr |
+    ]*4
+
+#  V1:
+#    (fffff)
+#    o5
+#    [
+#      | < f16/>c/e-/a- rr <f/>c/>e-/a- rr < f/>c/e-/a- r |
+#      | rr <f/>c/e-/a- rr <f/>c/e-/a- rr |
+#      | <e-/b-/>e-/g rr <e-/b-/>e-/g rr <d-/>d-/f/a- r |
+#      | rr <d-/>d-/f/a- rr <d-/>d-/f/a- rr |
+#    ]*4

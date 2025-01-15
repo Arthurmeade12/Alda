@@ -1,0 +1,14 @@
+#!/usr/bin/env -S alda play -f
+#(transpose! -1)
+(tempo! 100)
+GREST = r8 g4.
+CREST = r8 c4.
+piano:
+    o4
+    V1:
+        g16 a r a r r g r r2 |  a16 b r b r r b >c r <{e2/g4./>c4}4. r16 |
+    V2:
+        f8.*3 r r4 | g8.*2 a r r4 |
+    V3:
+        r8*3 g >g8 r16 d8 r16 d8 |
+    V4:

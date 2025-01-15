@@ -1,0 +1,28 @@
+#!/usr/bin/env -S alda play -f
+rr=r8*3
+piano:
+  o5
+  V1:
+    o4
+    [ g+1.6 rr | d+1.6 rr | e1.6 rr | c+1.6 rr ]*4
+  V2:
+    [< r8 b2 rr >| r8 c+2 rr <| r8 b2 rr >| r8 c+2 rr ]*4
+  V3:
+    [ r4 d+4. rr | r4 e4. rr | r4 e4. rr | r4 e4. rr ]*4
+  V4:
+    [ r4. g+4 rr | r4. g4 rr | r4. g+4 rr | r4. g4 rr ]*4
+  V5:
+    [ r2 b8 rr | r2 a+8 rr | r2 b8 rr | r2 a+8 rr ]*4
+bagpipes:
+  V6:
+    r0.125
+    | g+8 a+ b >c+ d+ rr | e d+ c+ r2 <b8 >|
+    | e d+ c+ r2 <b8 >| e d+ c+ r g+2 <|
+    | g+8 a+ b >c+ d+ rr | e d+ c+ r4. |
+    | r1 | r1 |
+trumpet:
+  V7:
+    | r0.25 |
+    | g+2 b | a+ g+ | r1 | r1 |
+    | g+2 {b a+ g+} | {>c+ <b a+} {g+ f+}4. a+8~|a+ g+4 f+ g+4. | r1 |
+    | r1 | r1 | g+2 g+ | g+ g+ |

@@ -1,0 +1,25 @@
+#!/usr/bin/env -S alda play -f
+(tempo! 250)
+mid = d4~d1~d1
+midi-calliope-lead:
+     V1:
+        o4
+        [
+            | f+8 r4. | f+8 r4. | f+8
+            [ r4 f8 | r4 f+8 r8 ]'1,2,3,5,6,7,9,10,11,13,14,15
+            [ r8 f8 f8 | r4 f+8 r8 ]'4,12,16
+            [ r8 f8 f8 | r4 f+8 r8 | %MARK ]'8
+        ]*16
+piano:
+    V1:
+        o4
+        @MARK
+        [
+            <b1 >c+2. mid | f+1 e2. mid
+        ]*2
+    V2:
+        o4
+        @MARK
+        [
+            >d2 <b4 >c+2 <a f+4~f+1~f+2. a8 b | >c+2 <a4 b2 g+ f+4~f+1~f+1
+        ]*2

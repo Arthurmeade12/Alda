@@ -3,7 +3,7 @@ midi-saw-wave:
 	V1: 
 		o4 
 		[
-		r8 b16/>d r16|r16 c16/e r8 | <a16/>c r8 <a16/>c | r16 <b16/>d r16 <b8./>d |
+		r8 b16/>d r8 c16/e r8 | <a16/>c r8 <a16/>c r16 <b16/>d r16 <b8./>d |
 		c16/e r8 <a16/>c r16 <f8/a e/g d8./g r8
 		]*2
 	V2: 

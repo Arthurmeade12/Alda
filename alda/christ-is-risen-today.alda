@@ -1,9 +1,11 @@
 #!/usr/bin/env -S alda play -f
 (key-sig! '(c major))
 midi-synth-voice:
-    alleluia = e8 f g c f4 e8 f | e4 d c2
-
-    V1:
-        o4
-        c4 e g c | f a a g | alleluia | f4 g a g | f e e d | alleluia | b4 > c d < g | > c d e2 | < b8 > c d < g > c4 < b8 > c | < b4 a g2 | g8 a b g > c4 < e f a a g | > c8 < b  > c < g a b > c d | c4 < b > c2 |
+  alleluia = e8 f g c f4 e8 f | e4 d c2
+  V1:
+    o4
+    | c4 e g c | f a a g | alleluia |
+    | f4 g a g | f e e d | alleluia |
+    | b4 > c d < g | > c d e2 | < b8 > c d < g > c4 < b8 > c | < b4 a g2 |
+    | g8 a b g > c4 < e f a a g | > c8 < b  > c < g a b > c d | c4 < b > c2 |
 

@@ -1,8 +1,9 @@
+#!/usr/bin/env -S alda play -f
 (tempo! 150)
 piano:
-    [
-        e8 c d | e g f | f a g | g >c <b | >c <g e | c d e
-        f g a | g f e
-        [d e c | <b >c d | <g b >d | f e d]'1
-        [<g >c <b | >c e g | >c <g e | c2  ]'2
-    ]*2
+  [
+    e8 c d | e g f | f a g | g >c <b | >c <g e | c d e
+    f g a | g f e
+    [d e c | <b >c d | <g b >d | f e d]'1
+    [<g >c <b | >c e g | >c <g e | c2  ]'2
+  ]*2

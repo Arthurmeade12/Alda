@@ -1,9 +1,0 @@
-(tempo! 120)
-piano:
-	V1: o6 [
-		| b8 r e r f+ r d r | d r d e2 e16 d |
-		| d e r4. r2 |
-		# Middle to end
-		r1 '4
-		[  r2 a16*4 a8 a  ]'1,2,3
-		]*4

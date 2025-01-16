@@ -1,5 +1,0 @@
-#!/usr/bin/env -S alda play -f
-piano:
-  d8~e~f~f r2 | e8~f~g~g r2 | d8. e8. f8 f8. e8. f8 | e8. f8. g8 g r4. | e8 f g g4 f8 g |f8~f16|
-bagpipes:
-  o3 b-1 |> c |< b- |> c |< a |> d

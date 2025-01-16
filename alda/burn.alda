@@ -1,13 +1,13 @@
-#!/usr/local/bin/alda -c
+#!/usr/bin/env -S alda play -f
 (tempo! 180)
 # Time 3/4
 DOWN = g f+ d 
 BMINOR=b4 > d f+ DOWN <
 harpsichord:
-	o4
-	[
-		BMINOR | b- > c+ f+ g f+ c+ < |  BMINOR | > DOWN*2 <
-	]*2
+  o4
+  [
+    BMINOR | b- > c+ f+ g f+ c+ < |  BMINOR | > DOWN*2 <
+  ]*2
 piano:
-	o3
-	r1*6 | b1. f-. g. > d2. e.
+  o3
+  r1*6 | b1. f+1. g1. > d2. e2.

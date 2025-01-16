@@ -1,4 +1,4 @@
-#!/usr/bin/env -S alda play -c
+#!/usr/bin/env -S alda play -f
 (vol! 100)
 midi-drawbar-organ:
     V1:

@@ -1,11 +1,12 @@
+#!/usr/bin/env -S alda play -f
 (vol! 100)
 takingtime = [{e g f}2]*2
 midi-calliope-lead:
-    V1:
-        o5
-        [ r4 e8*3 r g r e r g r e r g e2 > c8*2 r4 < b8*2 r4 a8*2 g r4 ]*2
-        [[e8 g]*2 e4 g | [g8 a]*2 g4 > c | {<b >c <b}4 a4 e g | takingtime ]*2
-        e1. d4 e8 f e1 | takingtime | e1. d4 e8 d | c2 (vol 80) >c1 < a4 g
-    V2:
-        o4
-        [c1. d2 |  <a1. >f2]*6
+  V1:
+    o5
+    [ r4 e8*3 r g r e r g r e r g e2 > c8*2 r4 < b8*2 r4 a8*2 g r4 ]*2
+    [[e8 g]*2 e4 g | [g8 a]*2 g4 > c | {<b >c <b}4 a4 e g | takingtime ]*2
+    e1. d4 e8 f e1 | takingtime | e1. d4 e8 d | c2 (vol 80) >c1 < a4 g
+  V2:
+    o4
+    [c1. d2 |  <a1. >f2]*6

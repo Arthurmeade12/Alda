@@ -4,26 +4,24 @@ piano:
   V1:
     o4
     [
-      | >d4 < g8 a b > c | d4 < g g | > e c8 d e f+ | g4 < g g |
-      | > c d8 c < b a | b4 > c8 < b a g
-      [ f+4 g8 a b g | {b32 a2}2.]'1
-      [a4 b8 a g f+ | g2./d/<b >]'2
-    ]*0
-    [
-      | >b4 g8 a b g | a4 d8 e f+ d | g4 e8 f+ g d | c+4 <b8 > c+ <a4 |
-      | a8 b >c+ d e f+ | g4 f+ e | f+ <a >c+ | d2. |
-      | d4 <g8 f+ g4 | >e <g8 f+ g4 | >d c <b | a8 g f+ g a4 |
-      | d8 e f+ g a b | >c4 <b a | b8 >d <g4 f+ | g2./d/<b |
-    ]
+      |> d4 < g8 a b > c | d4 < g g >| e c8 d e f+ | g4 < g g >|
+      | c d8 c < b a | b4 > c8 < b a g |
+      [ f+4 g8 a b g | {b32 a2}2. ]'1
+      [ a4 b8 a g f+ | g2. > ]'2
+    ]*2
+
+    | b4 g8 a b g | a4 d8 e f+ d | g4 e8 f+ g d | c+4 < b8 > c+ < a4 |
+    | a8 b > c+ d e f+ | g4 f+ e | f+ < a > c+ | d2. |
+    | d4 < g8 f+ g4 >| e < g8 f+ g4 >| d c < b | a8 g f+ g a4 |
+    | d8 e f+ g a b | >c4 <b a | b8 >d <g4 f+ | g2./d/<b |
   V2:
     o3
-    [
-      | g2/b/>d <a4 | b2. | >c2. | <b2. |
-      | a2. | g2. | >d4 <b g | >d <d8 >c <b a |
-      | b2 a4 | g b g | >c2. | <b4 >c8 <b a g |
-      | a2 f+4 | g2 b4 | >c d <d | g2 <g4 > |
-    ]*0
-    [
-      | g2. | f+ | e4 g e | a2 <a4 |
-      | >a2. | b4 >d c+ | d <f+ a | d2. |
-    ]
+    | g2/b/>d <a4 | b2. | >c2. | <b2. |
+    | a2. | g2. | >d4 <b g | >d <d8 >c <b a |
+    | b2 a4 | g b g | >c2. | <b4 >c8 <b a g |
+    | a2 f+4 | g2 b4 | >c d <d | g2 <g4 > |
+
+    | g2. | f+ | e4 g e | a2 <a4 |
+    | >a2. | b4 >d c+ | d <f+ a >| d < d8 > c < b a |
+    | b4 > d < b >| c e c <| b a g >| d2. <|
+    | d2. | e4 g f+ | g < b > d | g4 < b g |

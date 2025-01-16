@@ -1,14 +1,15 @@
+#!/usr/bin/env -S alda play -f
 (tempo! 64.5)
 midi-saw-wave:
-	V1: 
-		o4 
-		[
-		r8 b16/>d r8 c16/e r8 | <a16/>c r8 <a16/>c r16 <b16/>d r16 <b8./>d |
-		c16/e r8 <a16/>c r16 <f8/a e/g d8./g r8
-		]*2
-	V2: 
-		(vol 80)
-		o2
-		[ 
-		c1~c4.~c16 r8 f8~g4~r16
-		]*2
+  V1:
+    o4
+    [
+    r8 b16/>d r8 c16/e r8 | <a16/>c r8 <a16/>c r16 <b16/>d r16 <b8./>d |
+    c16/e r8 <a16/>c r16 <f8/a e/g d8./g r8
+    ]*2
+  V2:
+    (vol 80)
+    o2
+    [
+    c1~c4.~c16 r8 f8~g4~r16
+    ]*2

@@ -1,0 +1,9 @@
+#!/usr/bin/env -S alda play -f
+(key-sig !(g major))
+piano:
+  V1:
+    o6
+    | d4 <g8 a b >c | d4 < g g | >e c8 d e f+ | g4 < g g |
+  V2:
+    o4
+    | g2/b/>d <a4 | b1 | >c | <b |

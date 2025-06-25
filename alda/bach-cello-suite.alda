@@ -1,0 +1,65 @@
+#!/usr/bin/env -S alda play -f
+(tempo! 150)
+o4
+r4
+
+cello:
+    [ <g8 >d b a | b d b d ]*2
+    [ <g >e >c <b | >c <e >c <e ]*2
+    [ <g >f+ >c <b | >c <f+ >c <f+ ]*2
+    <g >g b a | b g b g | <g >g b a | b g b f+
+
+    <g >e b a | b g f+ g | e g f+ g | <b >d c+ <b
+
+    >[ c+ g a g | a g a g ]*2
+    f+ a >d c+ | d <a g a | f+ a g a | d f+ e d
+
+    <[ e b >g f+ | g <b >g <b ]*2
+    e >c+ d e | d c+ <b a | >g f+ e >d | c+ <b a g
+
+    f+ e d >d | <a >d <f+ a | d e f+ a | g f+ e d
+
+    a- d f e | f d a- d | b d f e | f d a- d
+    c e a b | >c <a e d | c e a b | >c <a f+ e
+    [ d+ f+ d+ f+ | a f+ a f+ ]*2
+    g f+ e g | f+ g a f+ | g f+ e d | c <b a g
+
+    [ f+ >c d c | d c d c <]*2
+    [ g b >f e | f <b >f <b ]*2
+    [ g >c e d | e c e c <]*2
+    [ g >f+ >c <b | >c <f+ >c <f+ <]*2
+
+    g >d b a | b g f+ e | d c <b a | g f+ e d
+
+    [ c+ a >e f+ | g e f+ g <]*2
+    [ c a >d e | f+ d e f+ <]*2
+    c a >d f+ | a >c+2 | d1 r4 | r1
+
+    r8 <<a b >c | d e f+ g | a f+ d e | f+ g a b
+    >c <a f+ g | a b >c d | d+ d c+ d | d c <b >c
+    c <a f+ e | d <a b >c | <d a >d f+ | a b >c <a
+    b g d c | <b g a b | d g b >d | g a b g
+
+    >c+ <a+ a a+ | a+ a g+ a | a g f+ g | g e c+ <b
+    a >c+ e g | a >c+ d c+ | d <a f+ e | f+ a d f+
+    <a >d c+ <b | a g f+ e | d2 | r
+
+    r8 >>c <b a | g f+ e d | c b a g | f+ e d c
+    <b >a g f+ | e d c <b | a >g f+ e
+
+    f+ a d a | e a f+ a
+    [ g a e a | f+ a d a ]*3
+    e a f+ a | g a a a | b a d a
+    a a b a | >c <a d a
+    b a >c <a | >d <a b a | >c <a b a | >c <a a a
+    b a a a | b a g a | a a g a | a a f+ a
+    g8 a f+ a | g a e a | f+ a d e
+
+    f d f+ d | g d g+ d | a d a+ d | b d >c <d
+    >c+ <d >d <d | >d+ <d >e <d | >f <d >f+ <d |
+
+    [ >g8 <b d b | >g <b >g <b ]*2
+    [ >g <a d a | >g <a >g <a ]*2
+    >[ f+ c <d >c | f+ c f+ c ]*2
+    <<g4 >b0.57143/>g
+    # This will give a length of seven quarter notes
